@@ -12,12 +12,12 @@ namespace CustomerManagementSystem.Controllers
     {
         string signinKey = "SigningKeyForCustomerManagement";
         [HttpGet]
-        public string Get(string userName, string password)
+        public string Get(string userName, string password, string role)
         {
             var claims = new[]
             {
                 new Claim(ClaimTypes.Name,userName),
-                new Claim(JwtRegisteredClaimNames.Email,userName)
+                new Claim(ClaimTypes.Role,role)
             };
 
             var securityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(signinKey));

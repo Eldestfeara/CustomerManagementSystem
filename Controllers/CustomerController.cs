@@ -3,7 +3,7 @@ using CustomerManagementSystem;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
-[Authorize]
+[Authorize(Roles = "Admin")] // Sadece Admin yetkisi olanlar erişebilir.
 [ApiController]
 [Route("api/[controller]")]
 public class CustomerController : ControllerBase
