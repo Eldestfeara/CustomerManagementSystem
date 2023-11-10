@@ -1,4 +1,4 @@
-using CustomerManagementSystem;
+using CustomerManagementSystem.Models;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;

@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 
-namespace CustomerManagementSystem
+namespace CustomerManagementSystem.Models
 {
     public class ApplicationDbContext : DbContext
     {

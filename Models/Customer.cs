@@ -1,5 +1,5 @@
-﻿namespace CustomerManagementSystem;
-    public class Customer
+﻿namespace CustomerManagementSystem.Models;
+public class Customer
 {
     public int Id { get; set; }
     public string? Name { get; set; }

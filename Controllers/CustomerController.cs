@@ -1,5 +1,4 @@
-﻿// CustomerController.cs
-using CustomerManagementSystem;
+﻿using CustomerManagementSystem.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
